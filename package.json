@@ -4,8 +4,22 @@
   "description": "Boilerplate for React and Express",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Alexandru Jeman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^1.19.3"
+  }
 }
